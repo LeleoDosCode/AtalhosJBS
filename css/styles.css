@@ -1,0 +1,69 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+.content {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+}
+
+.card {
+        display: flex;
+        height: 100vh;
+        justify-content: space-around;
+        align-items: center;
+        flex-grow: 0.5;
+        transition: 200ms;
+}
+.card:hover{
+        font-size: 2rem;
+        flex-grow: 1;
+        color: #dadada;
+}
+
+.inventti {
+        background-color: #228822;
+}
+.inventti:hover {
+        background-color: #1F6E1F;
+        
+}
+
+.meuDanfe{
+        background-color: #3a8aaf;
+}
+.meuDanfe:hover{
+        background-color: #357694;
+}
+
+.holter {
+        background-color: #C6AD45;
+}
+.holter:hover {
+        background-color: #a08d40;
+}
+
+.trafegus{
+        background-color: #aa4542;
+}
+.trafegus:hover{
+        background-color: #853937;
+}
+
+.ravex {
+        background-color: #235284;
+}
+.ravex:hover {
+        background-color: #1F4872;
+}
+
+a {
+        color: white;
+        text-decoration: none;
+}
